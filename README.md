@@ -9,7 +9,7 @@ Figma-to-pdf requires Python **3** or greater
 
 ## Set up
 
-Update `token` in figmatopdf.py with your personal access token. [Personal Access Tokens](https://www.figma.com/developers/docs#auth-dev-token) 
+Update `token` in styleguide.py with your personal access token. [Personal Access Tokens](https://www.figma.com/developers/docs#auth-dev-token) 
 
 
 
