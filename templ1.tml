@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Style guide</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+
+    <style type="text/css">
+        body {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .starter-template {
+            padding: 1rem 1.5rem;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <main role="main">
+
+        <div class="starter-template" class="container">
+            <h1>Style guide</h1>
+        </div>
