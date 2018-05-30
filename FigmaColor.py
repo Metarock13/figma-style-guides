@@ -1,6 +1,5 @@
 import math
 
-
 class FigmaColor(object):
     R = float(0)
     G = float(0)
