@@ -64,7 +64,7 @@ def razv(arr_fonts):
     ret = []
     for item in arr_fonts:
         if item.styleOverrideTable is not None:
-            ret.append(item)
+            # ret.append(item)
             for item1 in item.styleOverrideTable:
                 temp1 = FigmaFont.FigmaFont(3, 0)
                 temp1.fontPostScriptName = item.fontPostScriptName
