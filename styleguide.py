@@ -1,6 +1,7 @@
-# -*- coding: utf- 8 -*-
+# -*- coding: utf-8 -*-
+import sys
+
 import FigmaStyleLib
-import sys, os
 
 token = "< T O K E N >"
 

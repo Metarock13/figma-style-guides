@@ -1,6 +1,7 @@
 import json
 import FigmaColor
 
+
 class FigmaFont(object):
     fontFamily = ''
     fontPostScriptName = ''
@@ -68,10 +69,13 @@ class FigmaFont(object):
                 self.styleOverrideTable = ''
 
             jcolor = pjson["fills"]
-            if len(jcolor) == 1:
-                self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+            if "color" in jcolor[0]:
+                if len(jcolor) == 1:
+                    self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+                else:
+                    self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
             else:
-                self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+                self.color = FigmaColor.FigmaColor("init", 0,0,0,0,0)
         if index == 1:
             style = jfills
             self.mjson = jfills
@@ -112,10 +116,13 @@ class FigmaFont(object):
                 self.lineHeightPercent = ''
             if "fills" in style:
                 jcolor = style["fills"]
-                if len(jcolor) == 1:
-                    self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+                if "color" in jcolor[0]:
+                    if len(jcolor) == 1:
+                        self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+                    else:
+                        self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
                 else:
-                    self.color = FigmaColor.FigmaColor("json", jcolor[0]["color"], 0, 0, 0, 0)
+                    self.color = FigmaColor.FigmaColor("init", 0,0,0,0,0)
         if index == 3:
             self.fontFamily = ''
             self.styleOverrideTable = ''

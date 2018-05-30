@@ -1,8 +1,9 @@
+import json
 import requests
+import FigmaColor
 import FigmaFont
 import FigmaFonts
-import FigmaColor
-import json
+
 
 def get_file_id(url):
     d = url.split('/')
